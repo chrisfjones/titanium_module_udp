@@ -1,27 +1,22 @@
-// This is a test harness for your module
-// You should do something interesting in this harness 
-// to test out the module and to provide instructions 
-// to users on how to use it by example.
-
-
-// open a single window
-var window = Ti.UI.createWindow({
-	backgroundColor:'white'
-});
-var label = Ti.UI.createLabel();
-window.add(label);
-window.open();
-
-// TODO: write your module tests here
-var titanium-module-udp = require('chrisfjones.titanium-module-udp');
-Ti.API.info("module is => " + titanium-module-udp);
-
-label.text = titanium-module-udp.example();
-
-Ti.API.info("module exampleProp is => " + titanium-module-udp.exampleProp);
-titanium-module-udp.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = titanium-module-udp.createExample({message: "Creating an example Proxy"});
-	proxy.printMessage("Hello world!");
-}
+(function() {
+  var button, log, udp, window;
+  var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+  log = Ti.API.info;
+  udp = require('chrisfjones.titanium_module_udp');
+  Ti.UI.setBackgroundColor('#000');
+  window = Ti.UI.createWindow({
+    backgroundColor: 'white'
+  });
+  this.socket = udp.createUDP();
+  this.i = 0;
+  button = Ti.UI.createButton({
+    title: 'send'
+  });
+  button.addEventListener('click', __bind(function() {
+    this.i++;
+    log("" + this.i + " todo: send some stuff via udp");
+    return this.socket.send("" + this.i, "127.0.0.1", 6789);
+  }, this));
+  window.add(button);
+  window.open();
+}).call(this);

@@ -5,7 +5,7 @@
 
 extern NSData * dataWithHexString (NSString * hexString);
 
-@implementation ChrisfjonesTitanium-module-udpModuleAssets
+@implementation ChrisfjonesTitanium_module_udpModuleAssets
 
 - (NSData*) moduleAsset
 {

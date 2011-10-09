@@ -1,6 +1,4 @@
 /**
- * Your Copyright Here
- *
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
@@ -8,8 +6,9 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
+#import "UDPSocketProxy.h"
 
-@implementation ChrisfjonesTitanium-module-udpModule
+@implementation ChrisfjonesTitanium_module_udpModule
 
 #pragma mark Internal
 
@@ -86,21 +85,8 @@
 
 #pragma Public APIs
 
--(id)example:(id)args
-{
-	// example method
-	return @"hello world";
-}
-
--(id)exampleProp
-{
-	// example property getter
-	return @"hello world";
-}
-
--(void)exampleProp:(id)value
-{
-	// example property setter
+-(id)createUDP:(id)args {
+    return [[[UDPSocketProxy alloc] _initWithPageContext:[self executionContext] args:args] autorelease];
 }
 
 @end

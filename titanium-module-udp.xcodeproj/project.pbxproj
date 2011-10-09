@@ -26,6 +26,8 @@
 		24DD6CFA1134B3F500162E58 /* ChrisfjonesTitanium-module-udpModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ChrisfjonesTitanium-module-udpModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.m */; };
+		8316E38C14412D52008856FF /* UDPSocketProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8316E38A14412D52008856FF /* UDPSocketProxy.h */; };
+		8316E38D14412D52008856FF /* UDPSocketProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8316E38B14412D52008856FF /* UDPSocketProxy.m */; };
 		AA747D9F0F9514B9006C5449 /* ChrisfjonesTitanium-module-udp_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ChrisfjonesTitanium-module-udp_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ChrisfjonesTitanium-module-udpModuleAssets.h"; path = "Classes/ChrisfjonesTitanium-module-udpModuleAssets.h"; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ChrisfjonesTitanium-module-udpModuleAssets.m"; path = "Classes/ChrisfjonesTitanium-module-udpModuleAssets.m"; sourceTree = "<group>"; };
+		8316E38A14412D52008856FF /* UDPSocketProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPSocketProxy.h; sourceTree = "<group>"; };
+		8316E38B14412D52008856FF /* UDPSocketProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPSocketProxy.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ChrisfjonesTitanium-module-udp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChrisfjonesTitanium-module-udp_Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libChrisfjonesTitanium-module-udp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libChrisfjonesTitanium-module-udp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +101,8 @@
 				24DE9E1011C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ChrisfjonesTitanium-module-udpModule.h */,
 				24DD6CF81134B3F500162E58 /* ChrisfjonesTitanium-module-udpModule.m */,
+				8316E38A14412D52008856FF /* UDPSocketProxy.h */,
+				8316E38B14412D52008856FF /* UDPSocketProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -120,6 +126,7 @@
 				AA747D9F0F9514B9006C5449 /* ChrisfjonesTitanium-module-udp_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* ChrisfjonesTitanium-module-udpModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.h in Headers */,
+				8316E38C14412D52008856FF /* UDPSocketProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +199,7 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* ChrisfjonesTitanium-module-udpModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* ChrisfjonesTitanium-module-udpModuleAssets.m in Sources */,
+				8316E38D14412D52008856FF /* UDPSocketProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
