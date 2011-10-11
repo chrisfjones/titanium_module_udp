@@ -13,7 +13,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					759,
 					20,
 					48,
 					43,
@@ -52,12 +52,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 340040655;
-			PBXWorkspaceStateSaveDate = 340040655;
+			PBXPerProjectTemplateStateSaveDate = 340041141;
+			PBXWorkspaceStateSaveDate = 340041141;
 		};
 		perUserProjectItems = {
+			F90EA9271444A065003B8A67 /* PBXTextBookmark */ = F90EA9271444A065003B8A67 /* PBXTextBookmark */;
+			F90EA92C1444A065003B8A67 /* PBXTextBookmark */ = F90EA92C1444A065003B8A67 /* PBXTextBookmark */;
+			F90EA92E1444A065003B8A67 /* PBXTextBookmark */ = F90EA92E1444A065003B8A67 /* PBXTextBookmark */;
 			F92801A11443E44800465010 /* PBXTextBookmark */ = F92801A11443E44800465010 /* PBXTextBookmark */;
-			F92801E2144403A300465010 /* PBXTextBookmark */ = F92801E2144403A300465010 /* PBXTextBookmark */;
 			F9B49A1F14449CFF007DD67F /* PBXTextBookmark */ = F9B49A1F14449CFF007DD67F /* PBXTextBookmark */;
 		};
 		sourceControlManager = F928018C1443DD3000465010 /* Source Control */;
@@ -86,6 +88,52 @@
 	D2AAC07D0554694100DB518D /* titanium_module_udp */ = {
 		activeExec = 0;
 	};
+	F90EA9271444A065003B8A67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F92801961443E3F700465010 /* UDPSocketProxy.m */;
+		name = "UDPSocketProxy.m: 55";
+		rLen = 0;
+		rLoc = 2024;
+		rType = 0;
+		vrLen = 1387;
+		vrLoc = 1010;
+	};
+	F90EA92C1444A065003B8A67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F90EA92D1444A065003B8A67 /* string.h */;
+		rLen = 1;
+		rLoc = 84;
+		rType = 1;
+	};
+	F90EA92D1444A065003B8A67 /* string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = string.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h;
+		sourceTree = "<absolute>";
+	};
+	F90EA92E1444A065003B8A67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F90EA92F1444A065003B8A67 /* string.h */;
+		name = "string.h: 85";
+		rLen = 35;
+		rLoc = 3458;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 3179;
+	};
+	F90EA92F1444A065003B8A67 /* string.h */ = {
+		isa = PBXFileReference;
+		name = string.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1911}}";
+			sepNavSelRange = "{3458, 35}";
+			sepNavVisRange = "{3179, 1576}";
+			sepNavWindowFrame = "{{15, 195}, {1023, 678}}";
+		};
+	};
 	F928018C1443DD3000465010 /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
@@ -110,9 +158,9 @@
 	};
 	F92801961443E3F700465010 /* UDPSocketProxy.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 884}}";
-			sepNavSelRange = "{1007, 0}";
-			sepNavVisRange = "{788, 803}";
+			sepNavIntBoundsRect = "{{0, 0}, {937, 858}}";
+			sepNavSelRange = "{2024, 0}";
+			sepNavVisRange = "{1010, 1387}";
 			sepNavWindowFrame = "{{387, 59}, {1023, 678}}";
 		};
 	};
@@ -126,22 +174,12 @@
 		vrLen = 362;
 		vrLoc = 0;
 	};
-	F92801E2144403A300465010 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F92801961443E3F700465010 /* UDPSocketProxy.m */;
-		name = "UDPSocketProxy.m: 29";
-		rLen = 0;
-		rLoc = 1007;
-		rType = 0;
-		vrLen = 803;
-		vrLoc = 788;
-	};
 	F9B49A1F14449CFF007DD67F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F92801961443E3F700465010 /* UDPSocketProxy.m */;
 		name = "UDPSocketProxy.m: 29";
 		rLen = 0;
-		rLoc = 1007;
+		rLoc = 1010;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 788;

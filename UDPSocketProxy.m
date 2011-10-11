@@ -15,7 +15,7 @@
 - (void) send: (NSArray*) args {
     NSString *msg       = [TiUtils stringValue:[args objectAtIndex: 0]];
     NSString *host      = [TiUtils stringValue:[args objectAtIndex: 1]];
-    NSInteger port      = [TiUtils intValue:[args objectAtIndex: 2]];
+    NSInteger port      = [TiUtils intValue:   [args objectAtIndex: 2]];
 	
 	NSLog(@"%@ send: %@ to %@:%i", self, msg, host, port);
 	
