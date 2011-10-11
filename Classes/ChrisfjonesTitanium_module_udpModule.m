@@ -1,12 +1,14 @@
 /**
+ * Your Copyright Here
+ *
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
-#import "ChrisfjonesTitanium-module-udpModule.h"
+#import "ChrisfjonesTitanium_module_udpModule.h"
+#import "UDPSocketProxy.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
-#import "UDPSocketProxy.h"
 
 @implementation ChrisfjonesTitanium_module_udpModule
 
@@ -15,13 +17,13 @@
 // this is generated for your module, please do not change it
 -(id)moduleGUID
 {
-	return @"9b24892a-07ea-497f-90f7-9eab6fac33f8";
+	return @"34e5bb3e-8448-4afb-8878-c6bc6fab9285";
 }
 
 // this is generated for your module, please do not change it
 -(NSString*)moduleId
 {
-	return @"chrisfjones.titanium-module-udp";
+	return @"chrisfjones.titanium_module_udp";
 }
 
 #pragma mark Lifecycle
@@ -86,6 +88,7 @@
 #pragma Public APIs
 
 -(id)createUDP:(id)args {
+	NSLog(@"[INFO] %@ --------- createUDP", self);
     return [[[UDPSocketProxy alloc] _initWithPageContext:[self executionContext] args:args] autorelease];
 }
 

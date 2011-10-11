@@ -1,16 +1,16 @@
-# titanium-module-udp Module
+# titanium_module_udp Module
 
 ## Description
 
 TODO: Enter your module description here
 
-## Accessing the titanium-module-udp Module
+## Accessing the titanium_module_udp Module
 
 To access this module from JavaScript, you would do the following:
 
-	var titanium-module-udp = require("chrisfjones.titanium-module-udp");
+	var titanium_module_udp = require("chrisfjones.titanium_module_udp");
 
-The titanium-module-udp variable is a reference to the Module object.	
+The titanium_module_udp variable is a reference to the Module object.	
 
 ## Reference
 

@@ -1,19 +1,15 @@
 /**
- *
- *  UDPSocketProxy.h
- *  titanium-module-udp
- *
- *  Created by Chris Jones on 10/8/11.
- *
- * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
- * and licensed under the Apache Public License (version 2)
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2011 by Appcelerator, Inc. All Rights Reserved.
+ * Licensed under the terms of the Apache Public License
+ * Please see the LICENSE included with this distribution for details.
  */
-
 #import "TiProxy.h"
 
 @interface UDPSocketProxy : TiProxy {
+
 @private
-    CFSocketRef _socket;
+	CFSocketRef _socket;
 }
 - (void) send: (id) args;
 @end

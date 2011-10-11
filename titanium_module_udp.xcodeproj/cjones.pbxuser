@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC07D0554694100DB518D /* titanium_module_udp */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* titanium_module_udp */,
+		);
+		codeSenseManager = F928018D1443DD3000465010 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 340040655;
+			PBXWorkspaceStateSaveDate = 340040655;
+		};
+		perUserProjectItems = {
+			F92801A11443E44800465010 /* PBXTextBookmark */ = F92801A11443E44800465010 /* PBXTextBookmark */;
+			F92801E2144403A300465010 /* PBXTextBookmark */ = F92801E2144403A300465010 /* PBXTextBookmark */;
+			F9B49A1F14449CFF007DD67F /* PBXTextBookmark */ = F9B49A1F14449CFF007DD67F /* PBXTextBookmark */;
+		};
+		sourceControlManager = F928018C1443DD3000465010 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	24416B8111C4CA220047AFDD /* Build & Test */ = {
+		activeExec = 0;
+	};
+	24DD6CF71134B3F500162E58 /* ChrisfjonesTitanium_module_udpModule.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 550}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 260}";
+			sepNavWindowFrame = "{{138, 171}, {1023, 678}}";
+		};
+	};
+	24DD6CF81134B3F500162E58 /* ChrisfjonesTitanium_module_udpModule.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1274}}";
+			sepNavSelRange = "{243, 0}";
+			sepNavVisRange = "{0, 990}";
+			sepNavWindowFrame = "{{417, 34}, {1023, 678}}";
+		};
+	};
+	D2AAC07D0554694100DB518D /* titanium_module_udp */ = {
+		activeExec = 0;
+	};
+	F928018C1443DD3000465010 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F928018D1443DD3000465010 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F92801951443E3F700465010 /* UDPSocketProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 550}}";
+			sepNavSelRange = "{328, 0}";
+			sepNavVisRange = "{0, 362}";
+			sepNavWindowFrame = "{{394, 129}, {1023, 678}}";
+		};
+	};
+	F92801961443E3F700465010 /* UDPSocketProxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 884}}";
+			sepNavSelRange = "{1007, 0}";
+			sepNavVisRange = "{788, 803}";
+			sepNavWindowFrame = "{{387, 59}, {1023, 678}}";
+		};
+	};
+	F92801A11443E44800465010 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F92801951443E3F700465010 /* UDPSocketProxy.h */;
+		name = "UDPSocketProxy.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 0;
+	};
+	F92801E2144403A300465010 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F92801961443E3F700465010 /* UDPSocketProxy.m */;
+		name = "UDPSocketProxy.m: 29";
+		rLen = 0;
+		rLoc = 1007;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 788;
+	};
+	F9B49A1F14449CFF007DD67F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F92801961443E3F700465010 /* UDPSocketProxy.m */;
+		name = "UDPSocketProxy.m: 29";
+		rLen = 0;
+		rLoc = 1007;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 788;
+	};
+}

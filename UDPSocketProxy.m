@@ -1,19 +1,14 @@
 /**
- *
- *  UDPSocketProxy.m
- *  titanium-module-udp
- *
- *  Created by Chris Jones on 10/8/11.
- *
- * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
- * and licensed under the Apache Public License (version 2)
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2011 by Appcelerator, Inc. All Rights Reserved.
+ * Licensed under the terms of the Apache Public License
+ * Please see the LICENSE included with this distribution for details.
  */
 
 #import "UDPSocketProxy.h"
 #import "TiUtils.h"
 #include <sys/socket.h> 
 #include <netinet/in.h>
-#include <arpa/inet.h>
 
 @implementation UDPSocketProxy
 
@@ -21,8 +16,10 @@
     NSString *msg       = [TiUtils stringValue:[args objectAtIndex: 0]];
     NSString *host      = [TiUtils stringValue:[args objectAtIndex: 1]];
     NSInteger port      = [TiUtils intValue:[args objectAtIndex: 2]];
-
-    struct sockaddr_in destinationAddress;
+	
+	NSLog(@"%@ send: %@ to %@:%i", self, msg, host, port);
+	
+	struct sockaddr_in destinationAddress;
     socklen_t sockaddr_destaddr_len = sizeof(destinationAddress);
     
     memset(&destinationAddress, 0, sockaddr_destaddr_len);
@@ -41,7 +38,7 @@
     } else {
         NSLog(@"sent: '%@' to %@:%i", msg, host, port);
     }
-}
+}	
 
 - (id)init {
     self = [super init];
@@ -61,7 +58,7 @@
                                  NULL,                  // callout
                                  NULL);                 // context
     }
-    
+	NSLog(@"[INFO] new UDPSocketProxy:%@", self);
     return self;
 }
 
