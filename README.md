@@ -5,12 +5,20 @@ UDP send support for Titanium
 Install
 -------
   1. [Download a zip] 
-  2. `cp chrisfjones.titanium-module-udp-iphone-x.x.zip /Library/Application\ Support/Titanium/`
+  2. `cp chrisfjones.titanium-module-udp-iphone-0.2.zip /Library/Application\ Support/Titanium/`
 
   (or wherever your Titanium directory is)
   
 Use
 ---
+  Add this to your tiapp.xml
+  
+    <modules>
+      <module version="0.2">chrisfjones.titanium_module_udp</module>
+    </modules>
+    
+  And this to your app
+  
     udp    = require('chrisfjones.titanium_module_udp');
     socket = udp.createUDP();
     socket.send("hi", "127.0.0.1", 6789);
@@ -27,4 +35,4 @@ Contribute
 ----------
   pretty please
 
-[Download a zip]: https://github.com/chrisfjones/titanium_module_udp/archives/master
+[Download a zip]: https://github.com/downloads/chrisfjones/titanium_module_udp/chrisfjones.titanium_module_udp-iphone-0.2.zip
