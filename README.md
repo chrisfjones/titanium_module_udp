@@ -1,3 +1,8 @@
+NOTE: Appcelerator now has a titanium udp module and you should use that one instead
+https://github.com/appcelerator/titanium_modules
+
+
+
 UDP send support for Titanium 
 ================================================================
 ### (ios-only and naive, but it works)
