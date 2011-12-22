@@ -1,5 +1,7 @@
+================================================================
 NOTE: Appcelerator now has a titanium udp module and you should use that one instead
 https://github.com/appcelerator/titanium_modules
+================================================================
 
 
 
