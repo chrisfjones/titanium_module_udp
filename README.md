@@ -1,6 +1,4 @@
-================================================================
-NOTE: Appcelerator now has a titanium udp module and you should use that one instead
-https://github.com/appcelerator/titanium_modules
+NOTE: Appcelerator now has a titanium udp module and you should use that one instead [https://github.com/appcelerator/titanium_modules]
 ================================================================
 
 
@@ -43,3 +41,4 @@ Contribute
   pretty please
 
 [Download a zip]: https://github.com/downloads/chrisfjones/titanium_module_udp/chrisfjones.titanium_module_udp-iphone-0.2.zip
+[https://github.com/appcelerator/titanium_modules]: https://github.com/appcelerator/titanium_modules
